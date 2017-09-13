@@ -4,10 +4,12 @@ namespace Hcode\Model;
 
 use \Hcode\DB\Sql;
 use \Hcode\Model;
+use \Hcode\Mailer;
 
 class User extends Model{
 
     const SESSION = "User";
+    const SECRET = "HcodePhp7_Secret";
 
     public static function login($login, $password){
 
@@ -127,8 +129,7 @@ class User extends Model{
 
     }
 
-    public static function getForgot($email, $inadmin = true)
-    {
+    public static function getForgot($email, $inadmin = true){
 
         $sql = new Sql();
 
@@ -141,13 +142,11 @@ class User extends Model{
             ":email"=>$email
         ));
 
-        if (count($results) === 0)
-        {
+        if (count($results) === 0){
             throw new \Exception("Não foi possível recuperar a senha.");
 
         }
-        else
-        {
+        else {
 
             $data = $results[0];
 
@@ -156,14 +155,12 @@ class User extends Model{
                 ":desip"=>$_SERVER["REMOTE_ADDR"]
             ));
 
-            if (count($results2) === 0)
-            {
+            if (count($results2) === 0){
 
                 throw new \Exception("Não foi possível recuperar a senha");
 
             }
-            else
-            {
+            else {
 
                 $dataRecovery = $results2[0];
 
@@ -196,8 +193,7 @@ class User extends Model{
 
     }
 
-    public static function validForgotDecrypt($code)
-    {
+    public static function validForgotDecrypt($code){
 
         $idrecovery = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, User::SECRET, base64_decode($code), MCRYPT_MODE_ECB);
 
@@ -231,8 +227,7 @@ class User extends Model{
 
     }
 
-    public static function setFogotUsed($idrecovery)
-    {
+    public static function setFogotUsed($idrecovery){
 
         $sql = new Sql();
 
@@ -242,8 +237,7 @@ class User extends Model{
 
     }
 
-    public function setPassword($password)
-    {
+    public function setPassword($password){
 
         $sql = new Sql();
 
