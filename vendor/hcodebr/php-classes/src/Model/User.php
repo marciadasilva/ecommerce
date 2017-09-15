@@ -6,28 +6,84 @@ use \Hcode\DB\Sql;
 use \Hcode\Model;
 use \Hcode\Mailer;
 
-class User extends Model{
+class User extends Model {
 
     const SESSION = "User";
     const SECRET = "HcodePhp7_Secret";
+    const ERROR = "UserError";
+    const ERROR_REGISTER = "UserErrorRegister";
+    const SUCCESS = "UserSucesss";
 
-    public static function login($login, $password){
+    public static function getFromSession()
+    {
+
+        $user = new User();
+
+        if (isset($_SESSION[User::SESSION]) && (int)$_SESSION[User::SESSION]['iduser'] > 0) {
+
+            $user->setData($_SESSION[User::SESSION]);
+
+        }
+
+        return $user;
+
+    }
+
+    public static function checkLogin($inadmin = true)
+    {
+
+        if (
+            !isset($_SESSION[User::SESSION])
+            ||
+            !$_SESSION[User::SESSION]
+            ||
+            !(int)$_SESSION[User::SESSION]["iduser"] > 0
+        ) {
+            //Não está logado
+            return false;
+
+        } else {
+
+            if ($inadmin === true && (bool)$_SESSION[User::SESSION]['inadmin'] === true) {
+
+                return true;
+
+            } else if ($inadmin === false) {
+
+                return true;
+
+            } else {
+
+                return false;
+
+            }
+
+        }
+
+    }
+
+    public static function login($login, $password)
+    {
 
         $sql = new Sql();
 
-        $results = $sql->select("SELECT * FROM tb_users WHERE deslogin = :LOGIN", array(
+        $results = $sql->select("SELECT * FROM tb_users a INNER JOIN tb_persons b ON a.idperson = b.idperson WHERE a.deslogin = :LOGIN", array(
             ":LOGIN"=>$login
         ));
 
-        if (count($results)===0){
-            throw new \Exception("Usuário inexistente ou senha inválida");
+        if (count($results) === 0)
+        {
+            throw new \Exception("Usuário inexistente ou senha inválida.");
         }
 
         $data = $results[0];
 
-        if (password_verify($password, $data["despassword"]) === true){
+        if (password_verify($password, $data["despassword"]) === true)
+        {
 
             $user = new User();
+
+            $data['desperson'] = utf8_encode($data['desperson']);
 
             $user->setData($data);
 
@@ -35,30 +91,37 @@ class User extends Model{
 
             return $user;
 
-
-
-
-        }else {
-            throw new \Exception("Usuário inexistente ou senha inválida");
+        } else {
+            throw new \Exception("Usuário inexistente ou senha inválida.");
         }
+
     }
 
-    public static function verifyLogin($inadmin = true){
-        if(!isset($_SESSION[User::SESSION])
-           || !$_SESSION[User::SESSION]
-           || !(int)$_SESSION[User::SESSION]["iduser"] > 0
-           || (bool)$_SESSION[User::SESSION]["inadmin"] !== $inadmin ){
+    public static function verifyLogin($inadmin = true)
+    {
 
-            header("Location: /admin/login");
+        if (!User::checkLogin($inadmin)) {
+
+            if ($inadmin) {
+                header("Location: /admin/login");
+            } else {
+                header("Location: /login");
+            }
             exit;
+
         }
+
     }
 
-    public static function logout(){
+    public static function logout()
+    {
+
         $_SESSION[User::SESSION] = NULL;
+
     }
 
-    public static function listAll(){
+    public static function listAll()
+    {
 
         $sql = new Sql();
 
@@ -66,8 +129,8 @@ class User extends Model{
 
     }
 
-
-    public function save(){
+    public function save()
+    {
 
         $sql = new Sql();
 
@@ -84,7 +147,8 @@ class User extends Model{
 
     }
 
-    public function get($iduser){
+    public function get($iduser)
+    {
 
         $sql = new Sql();
 
@@ -101,7 +165,8 @@ class User extends Model{
 
     }
 
-    public function update(){
+    public function update()
+    {
 
         $sql = new Sql();
 
@@ -119,7 +184,8 @@ class User extends Model{
 
     }
 
-    public function delete(){
+    public function delete()
+    {
 
         $sql = new Sql();
 
@@ -129,7 +195,8 @@ class User extends Model{
 
     }
 
-    public static function getForgot($email, $inadmin = true){
+    public static function getForgot($email, $inadmin = true)
+    {
 
         $sql = new Sql();
 
@@ -142,11 +209,13 @@ class User extends Model{
             ":email"=>$email
         ));
 
-        if (count($results) === 0){
+        if (count($results) === 0)
+        {
             throw new \Exception("Não foi possível recuperar a senha.");
 
         }
-        else {
+        else
+        {
 
             $data = $results[0];
 
@@ -155,12 +224,14 @@ class User extends Model{
                 ":desip"=>$_SERVER["REMOTE_ADDR"]
             ));
 
-            if (count($results2) === 0){
+            if (count($results2) === 0)
+            {
 
                 throw new \Exception("Não foi possível recuperar a senha");
 
             }
-            else {
+            else
+            {
 
                 $dataRecovery = $results2[0];
 
@@ -193,7 +264,8 @@ class User extends Model{
 
     }
 
-    public static function validForgotDecrypt($code){
+    public static function validForgotDecrypt($code)
+    {
 
         $idrecovery = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, User::SECRET, base64_decode($code), MCRYPT_MODE_ECB);
 
@@ -227,7 +299,8 @@ class User extends Model{
 
     }
 
-    public static function setFogotUsed($idrecovery){
+    public static function setFogotUsed($idrecovery)
+    {
 
         $sql = new Sql();
 
@@ -237,7 +310,8 @@ class User extends Model{
 
     }
 
-    public function setPassword($password){
+    public function setPassword($password)
+    {
 
         $sql = new Sql();
 
@@ -366,7 +440,6 @@ class User extends Model{
         return $results;
 
     }
-
 
 }
 
