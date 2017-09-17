@@ -1,203 +1,137 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><div class="slider-area">
-    <!-- Slider -->
-    <div class="block-slider block-slider4">
-        <ul class="" id="bxslider-home4">
-            <li>
-                <img src="/res/site/img/h4-slide.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        iPhone <span class="primary">6 <strong>Plus</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">Dual SIM</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-            <li><img src="/res/site/img/h4-slide2.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        by one, get one <span class="primary">50% <strong>off</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">school supplies & backpacks.*</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-            <li><img src="/res/site/img/h4-slide3.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        Apple <span class="primary">Store <strong>Ipod</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">Select Item</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-            <li><img src="/res/site/img/h4-slide4.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        Apple <span class="primary">Store <strong>Ipod</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">& Phone</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-        </ul>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!-- capa -->
+<div class="capa">
+    <div class="texto-capa">
+        <h1>Delicada Mulher</h1>
+        <a href=""class="btn btn-custom btn-roxo btn-lg">Ofertas</a>
+        <a href=""class="btn btn-custom btn-branco btn-lg">Agende uma visita</a>
     </div>
-    <!-- ./Slider -->
-</div> <!-- End slider area -->
+</div>
+<!-- /capa -->
 
-<div class="promo-area">
-    <div class="zigzag-bottom"></div>
+<!-- conteúdo -->
+<section id="lancamentos">
+    <!-- container -->
     <div class="container">
+
+        <!-- row -->
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo1">
-                    <i class="fa fa-refresh"></i>
-                    <p>1 ano de garantia</p>
+
+            <!-- loja -->
+            <div class="loja">
+                <!-- texto-loja -->
+                <div class="texto-loja">
+                    <h3>lançamentos</h3>
                 </div>
+                <!-- /texto-loja -->
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo2">
-                    <i class="fa fa-truck"></i>
-                    <p>Frete grátis</p>
+            <!-- /loja -->
+
+            <!-- albuns -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria foto-categoria-blusas">
+                        <button class="btn btn-categoria">Blusas</button>
+                    </div>
                 </div>
+
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo3">
-                    <i class="fa fa-lock"></i>
-                    <p>Pagamento seguro</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo4">
-                    <i class="fa fa-gift"></i>
-                    <p>Novos produtos</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> <!-- End promo area -->
+            <!-- /albuns -->
 
-<div class="maincontent-area">
-    <div class="zigzag-bottom"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="latest-product">
-                    <h2 class="section-title">Produtos</h2>
-                    <div class="product-carousel">
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="/res/site/img/product-1.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2><a href="#">Samsung Galaxy s5- 2015</a></h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$700.00</ins> <del>$100.00</del>
-                            </div>
-                        </div>
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="/res/site/img/product-2.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2>Nokia Lumia 1320</h2>
-                            <div class="product-carousel-price">
-                                <ins>$899.00</ins> <del>$999.00</del>
-                            </div>
-                        </div>
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="/res/site/img/product-3.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2>LG Leon 2015</h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="/res/site/img/product-4.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2><a href="#">Sony microsoft</a></h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$200.00</ins> <del>$225.00</del>
-                            </div>
-                        </div>
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="/res/site/img/product-5.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2>iPhone 6</h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$1200.00</ins> <del>$1355.00</del>
-                            </div>
-                        </div>
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="/res/site/img/product-6.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2><a href="#">Samsung gallaxy note 4</a></h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$400.00</ins>
-                            </div>
-                        </div>
+            <!-- servicos -->
+            <div class="col-md-3">
+                <div class="categoria foto-categoria-calcas">
+                    <div class="nome-categoria">
+                        <button class="btn btn-categoria">Calças</button>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div> <!-- End main content area -->
+            <!-- /servicos -->
 
-<div class="brands-area">
-    <div class="zigzag-bottom"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="brand-wrapper">
-                    <div class="brand-list">
-                        <img src="/res/site/img/brand1.png" alt="">
-                        <img src="/res/site/img/brand2.png" alt="">
-                        <img src="/res/site/img/brand3.png" alt="">
-                        <img src="/res/site/img/brand4.png" alt="">
-                        <img src="/res/site/img/brand5.png" alt="">
-                        <img src="/res/site/img/brand6.png" alt="">
-                        <img src="/res/site/img/brand1.png" alt="">
-                        <img src="/res/site/img/brand2.png" alt="">
+            <!-- albuns -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria foto-categoria-saias">
+                        <button class="btn btn-categoria">Saias</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /albuns -->
+
+            <!-- servicos -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria foto-categoria-vestidos">
+                        <button class="btn btn-categoria">Vestidos</button>
                     </div>
                 </div>
             </div>
+            <!-- /servicos -->
+
+
         </div>
+        <!-- /row -->
     </div>
-</div> <!-- End brands area -->
+    <!-- /container -->
+</section>
+<!-- /conteúdo -->
+
+<!-- section-loja -->
+<section id="section-loja">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- loja -->
+            <div class="loja">
+                <!-- texto-loja -->
+                <div class="texto-loja">
+                    <h3>Ofertas</h3>
+                </div>
+                <!-- /texto-loja -->
+            </div>
+            <!-- /loja -->
+
+            <div class="loja">
+                <!-- carousel
+                       <!-- <Carousel bootstrap> -->
+                <div class="maincontent-area">
+                    <div class="zigzag-bottom"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="latest-product">
+                                    <div class="product-carousel">
+                                        <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
+                                        <div class="single-product">
+                                            <div class="product-f-image">
+                                                <img src="<?php echo htmlspecialchars( $value1["desphoto"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" alt="Ofertas">
+                                                <div class="product-hover">
+                                                    <a href="/cart/<?php echo htmlspecialchars( $value1["idproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?>/add" class="add-to-cart-link"><i class="fa fa-shopping-bag"></i> Comprar</a>
+                                                    <a href="/products/<?php echo htmlspecialchars( $value1["desurl"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" class="view-details-link"><i class="fa fa-link"></i> Ver Detalhes</a>
+                                                </div>
+                                            </div>
+
+                                            <h2><a href="/products/<?php echo htmlspecialchars( $value1["desurl"], ENT_COMPAT, 'UTF-8', FALSE ); ?>"><?php echo htmlspecialchars( $value1["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?></a></h2>
+
+                                            <div class="product-carousel-price">
+                                                <ins>R$<?php echo formatPrice($value1["vlprice"]); ?></ins>
+                                            </div>
+                                        </div>
+                                        <?php } ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End main content area -->
+                <!-- /carousel -->
+
+            </div>
+            <!-- /loja -->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- /container -->
+</section>
+<!-- /section-loja -->

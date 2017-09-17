@@ -1,131 +1,146 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><div class="slider-area">
-    <!-- Slider -->
-    <div class="block-slider block-slider4">
-        <ul class="" id="bxslider-home4">
-            <li>
-                <img src="/res/site/img/h4-slide.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        iPhone <span class="primary">6 <strong>Plus</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">Dual SIM</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-            <li><img src="/res/site/img/h4-slide2.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        by one, get one <span class="primary">50% <strong>off</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">school supplies & backpacks.*</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-            <li><img src="/res/site/img/h4-slide3.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        Apple <span class="primary">Store <strong>Ipod</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">Select Item</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-            <li><img src="/res/site/img/h4-slide4.png" alt="Slide">
-                <div class="caption-group">
-                    <h2 class="caption title">
-                        Apple <span class="primary">Store <strong>Ipod</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">& Phone</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-                </div>
-            </li>
-        </ul>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!-- capa -->
+<div class="capa">
+    <div class="texto-capa">
+        <h1>Delicada Mulher</h1>
+        <a href=""class="btn btn-custom btn-roxo btn-lg">Ofertas</a>
+        <a href=""class="btn btn-custom btn-branco btn-lg">Agende uma visita</a>
     </div>
-    <!-- ./Slider -->
-</div> <!-- End slider area -->
+</div>
+<!-- /capa -->
 
-<div class="promo-area">
-    <div class="zigzag-bottom"></div>
+<!-- conteúdo -->
+<section id="lancamentos">
+    <!-- container -->
     <div class="container">
+
+        <!-- row -->
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo1">
-                    <i class="fa fa-refresh"></i>
-                    <p>1 ano de garantia</p>
+
+            <!-- loja -->
+            <div class="loja">
+                <!-- texto-loja -->
+                <div class="texto-loja">
+                    <h3>lançamentos</h3>
+                </div>
+                <!-- /texto-loja -->
+            </div>
+            <!-- /loja -->
+
+            <!-- albuns -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria">
+                        <button class="btn btn-categoria">Blusas</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /albuns -->
+
+            <!-- servicos -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria">
+                        <button class="btn btn-categoria">Calças</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo2">
-                    <i class="fa fa-truck"></i>
-                    <p>Frete grátis</p>
+            <!-- /servicos -->
+
+            <!-- albuns -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria">
+                        <button class="btn btn-categoria">Saias</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /albuns -->
+
+            <!-- servicos -->
+            <div class="col-md-3">
+                <div class="categoria">
+                    <div class="nome-categoria">
+                        <button class="btn btn-categoria">Vestidos</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo3">
-                    <i class="fa fa-lock"></i>
-                    <p>Pagamento seguro</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-promo promo4">
-                    <i class="fa fa-gift"></i>
-                    <p>Novos produtos</p>
-                </div>
-            </div>
+            <!-- /servicos -->
+
+
         </div>
+        <!-- /row -->
     </div>
-</div> <!-- End promo area -->
+    <!-- /container -->
+</section>
+<!-- /conteúdo -->
 
-<div class="maincontent-area">
-    <div class="zigzag-bottom"></div>
+<!-- section-loja -->
+<section id="section-loja">
+    <!-- container -->
     <div class="container">
+        <!-- row -->
         <div class="row">
-            <div class="col-md-12">
-                <div class="latest-product">
-                    <h2 class="section-title">Produtos</h2>
-                    <div class="product-carousel">
-                        <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
-                        <div class="single-product">
-                            <div class="product-f-image">
-                                <img src="<?php echo htmlspecialchars( $value1["desphoto"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" alt="">
-                                <div class="product-hover">
-                                    <a href="/cart/<?php echo htmlspecialchars( $value1["idproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?>/add" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Comprar</a>
-                                    <a href="/products/<?php echo htmlspecialchars( $value1["desurl"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" class="view-details-link"><i class="fa fa-link"></i> Ver Detalhes</a>
-                                </div>
-                            </div>
+            <!-- loja -->
+            <div class="loja">
+                <!-- texto-loja -->
+                <div class="texto-loja">
+                    <h3>Ofertas</h3>
+                </div>
+                <!-- /texto-loja -->
+            </div>
+            <!-- /loja -->
 
-                            <h2><a href="/products/<?php echo htmlspecialchars( $value1["desurl"], ENT_COMPAT, 'UTF-8', FALSE ); ?>"><?php echo htmlspecialchars( $value1["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?></a></h2>
+            <div class="loja">
+                <!-- carousel
+                       <!-- <Carousel bootstrap> -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
 
-                            <div class="product-carousel-price">
-                                <ins>R$<?php echo formatPrice($value1["vlprice"]); ?></ins>
-                            </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" style="box-shadow: 2px 2px 2px rgba(255,255,255,.7);">
+                        <div class="item active">
+                            <img src="../res/site/img/pose1.jpg" alt="Pose 1" class="img-responsive"
+                                 style="width:100%;
+                                        height: 450px;">
                         </div>
-                        <?php } ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> <!-- End main content area -->
 
-<div class="brands-area">
-    <div class="zigzag-bottom"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="brand-wrapper">
-                    <div class="brand-list">
-                        <img src="/res/site/img/brand1.png" alt="">
-                        <img src="/res/site/img/brand2.png" alt="">
-                        <img src="/res/site/img/brand3.png" alt="">
-                        <img src="/res/site/img/brand4.png" alt="">
-                        <img src="/res/site/img/brand5.png" alt="">
-                        <img src="/res/site/img/brand6.png" alt="">
-                        <img src="/res/site/img/brand1.png" alt="">
-                        <img src="/res/site/img/brand2.png" alt="">
+                        <div class="item">
+                            <img src="../res/site/img/pose1.jpg" alt="Pose 2" class="img-responsive"
+                                 style="width:100%;
+                                        height: 450px;">
+                        </div>
+
+                        <div class="item">
+                            <img src="../res/site/img/pose1.jpg" alt="Pose 3" class="img-responsive"
+                                 style="width:100%;
+                                        height: 450px;">
+                        </div>
                     </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
+                <!-- /carousel -->
+
             </div>
+            <!-- /loja -->
         </div>
+        <!-- row -->
     </div>
-</div> <!-- End brands area -->
+    <!-- /container -->
+</section>
+<!-- /section-loja -->
