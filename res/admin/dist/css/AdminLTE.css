@@ -19,7 +19,7 @@ body {
   height: 100%;
 }
 body {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: raleway, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
@@ -43,7 +43,7 @@ body {
   max-width: 1250px;
   margin: 0 auto;
   min-height: 100%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
   position: relative;
 }
 .layout-boxed {

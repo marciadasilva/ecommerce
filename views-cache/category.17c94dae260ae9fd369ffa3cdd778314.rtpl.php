@@ -11,13 +11,13 @@
 </div>
 
 
-    <div class="single-product-areas">
+    <div class="single-product-areas margin-foto">
         <div class="container">
             <div class="row">
                 <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
-                        <div class="product-upper">
+                        <div class="product-upper tamanho-foto-categoria">
                             <img src="<?php echo htmlspecialchars( $value1["desphoto"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" alt="">
                         </div>
                         <h2><a href="/products/<?php echo htmlspecialchars( $value1["desurl"], ENT_COMPAT, 'UTF-8', FALSE ); ?>"><?php echo htmlspecialchars( $value1["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?></a></h2>
