@@ -24,7 +24,7 @@
                         <div class="col-sm-6">
                             <div class="product-images">
                                 <div class="product-main-img">
-                                    <img src="<?php echo htmlspecialchars( $product["desphoto"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">
+                                    <img src="<?php echo htmlspecialchars( $product["desphoto"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" class="img-responsive">
                                 </div>
                             </div>
                         </div>
@@ -62,8 +62,8 @@
                                         <div role="tabpanel" class="tab-pane fade" id="profile">
                                             <h2>Reviews</h2>
                                             <div class="submit-review">
-                                                <p><label for="name">Name</label> <input name="name" type="text"></p>
-                                                <p><label for="email">Email</label> <input name="email" type="email"></p>
+                                                <p><label for="name">Name</label> <input id="name" name="name" type="text"></p>
+                                                <p><label for="email">Email</label> <input id="email" name="email" type="email"></p>
                                                 <div class="rating-chooser">
                                                     <p>Your rating</p>
 
@@ -75,7 +75,7 @@
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                 </div>
-                                                <p><label for="review">Your review</label> <textarea name="review" id="" cols="30" rows="10"></textarea></p>
+                                                <p><label for="review">Your review</label> <textarea id="review" name="review" id="" cols="30" rows="10"></textarea></p>
                                                 <p><input type="submit" value="Submit"></p>
                                             </div>
                                         </div>
