@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49337e1-e317-424c-a16d-b3b054535157" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/products/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/products/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/products/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/products/4.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/11.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/12.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/13.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/14.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/15.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/16.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/img/products/5.jpg" afterPath="$PROJECT_DIR$/res/site/img/products/5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/black-scales.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/crossword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/site/img/gray-floral.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.css" afterPath="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/css/delicada.css" afterPath="$PROJECT_DIR$/res/site/css/delicada.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/Product.php" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/categories-menu.17c94dae260ae9fd369ffa3cdd778314.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/categories-menu.17c94dae260ae9fd369ffa3cdd778314.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/category.17c94dae260ae9fd369ffa3cdd778314.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/category.17c94dae260ae9fd369ffa3cdd778314.rtpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/login.d70a64ba7abb00fe427240570e3a4447.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/login.d70a64ba7abb00fe427240570e3a4447.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/product-detail.17c94dae260ae9fd369ffa3cdd778314.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/product-detail.17c94dae260ae9fd369ffa3cdd778314.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/products-create.d70a64ba7abb00fe427240570e3a4447.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/products-create.d70a64ba7abb00fe427240570e3a4447.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/products-update.d70a64ba7abb00fe427240570e3a4447.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/products-update.d70a64ba7abb00fe427240570e3a4447.rtpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/login.html" afterPath="$PROJECT_DIR$/views/admin/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/products-create.html" afterPath="$PROJECT_DIR$/views/admin/products-create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/products-update.html" afterPath="$PROJECT_DIR$/views/admin/products-update.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories-menu.html" afterPath="$PROJECT_DIR$/views/categories-menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/category.html" afterPath="$PROJECT_DIR$/views/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/product-detail.html" afterPath="$PROJECT_DIR$/views/product-detail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +24,8 @@
       <file leaf-file-name="delicada.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/site/css/delicada.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="20" column="57" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -55,8 +34,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="515">
+              <caret line="70" column="84" lean-forward="false" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -65,8 +44,8 @@
       <file leaf-file-name="AdminLTE.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/admin/dist/css/AdminLTE.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="557">
+              <caret line="3269" column="16" lean-forward="false" selection-start-line="3269" selection-start-column="16" selection-end-line="3269" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -93,15 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>latest-product</find>
-      <find>product-upper</find>
-      <find>product-option-shop</find>
-      <find>web</find>
-      <find>single-product-area</find>
-      <find>single-product-areas</find>
-      <find>zigzag-bottom</find>
-      <find>section-loja</find>
-      <find>category</find>
       <find>product-pagination</find>
       <find>pagination</find>
       <find>product-main-img</find>
@@ -122,7 +92,16 @@
       <find>add_to_cart_button</find>
       <find>cell</find>
       <find>option-shop</find>
+      <find>layout-boxed</find>
+      <find>login-page</find>
+      <find>body</find>
+      <find>@medi</find>
+      <find>login-box-body</find>
+      <find>login-box</find>
+      <find>sign IN</find>
+      <find>login-box-msg</find>
       <find>table</find>
+      <find>sign</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,19 +226,6 @@
             <path>
               <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -360,18 +326,18 @@
       <workItem from="1505582981042" duration="1067000" />
       <workItem from="1505585025705" duration="16000" />
       <workItem from="1505585078835" duration="9148000" />
-      <workItem from="1505651983902" duration="20105000" />
+      <workItem from="1505651983902" duration="26031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79235000" />
+    <option name="totallyTimeSpent" value="85161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,6 +355,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -401,13 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/admin/users-create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/users-update.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -682,26 +660,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/site/css/delicada.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="440">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="515">
+          <caret line="70" column="84" lean-forward="false" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/admin/dist/css/AdminLTE.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="557">
+          <caret line="3269" column="16" lean-forward="false" selection-start-line="3269" selection-start-column="16" selection-end-line="3269" selection-end-column="16" />
           <folding />
         </state>
       </provider>
